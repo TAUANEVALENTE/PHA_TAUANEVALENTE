@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation        Aqui neste arquivo estaram presentes todos os tipos de 
-...                  variáveis que iremos estudar ao longo do treinamento.
+...                  variáveis que iremos estudar ao longo do treinamento..
 
 Library              SeleniumLibrary
 
