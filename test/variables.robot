@@ -1,6 +1,6 @@
 *** Settings ***
-Documentation        Aqui neste arquivo estaram presentes todos os tipos de, 
-...                  variáveis que iremos estudar ao longo do treinamento..
+Documentation        Aqui neste arquivo estaram presentes todos os tipos de 
+...                  variáveis que iremos estudar ao longo do treinamento.
 
 Library              SeleniumLibrary
 
@@ -9,7 +9,7 @@ Test Teardown        Fechar navegador
 
 *** Variables ***
 #Variável do tipo Simples
-${NOME}        HELDER FERNANDES DE PAULA
+${NOME}      TAUANE SANCHES WEBER BRANDÃO VALENTE
 
 #Variável do tipo Lista
 @{FRUTAS}      Banana    Maçã    Melância    Abacaxi
@@ -21,7 +21,7 @@ ${NOME}        HELDER FERNANDES DE PAULA
 ...            Modelo=Sentra SL    
 ...            Ano=2016
 
-${URL}         https://robotframework.org/
+${URL}         http://automationpractice.com/index.php
 ${BROWSER}     chrome
 
 *** Test Cases ***
@@ -50,7 +50,7 @@ Dado que eu esteja na tela Home do site
     
 
 Quando pesquisar o produto 
-
+     
 
 Então o produto deve ser apresentado com sucesso
 

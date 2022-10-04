@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20221002 12:22:17.330" rpa="false" schemaversion="2">
+<suite id="s1" name="Variables" source="C:\Users\Vinicius\Documents\PHA_TAUANEVALENTE\test\features\variables.robot">
+<test id="s1-t1">
+<status status="FAIL" starttime="20221002 12:22:22.304" endtime="20221002 12:22:22.305">Test case name cannot be empty.</status>
+</test>
+<test id="s1-t2" name="Validar abertura do Browser">
+<kw name="Abrir o meu navegador" type="SETUP">
+<msg timestamp="20221002 12:22:22.314" level="FAIL">No keyword with name 'Abrir o meu navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.314" endtime="20221002 12:22:22.314"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20221002 12:22:22.320" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.320" endtime="20221002 12:22:22.322">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<tag>BROWSER</tag>
+<status status="FAIL" starttime="20221002 12:22:22.309" endtime="20221002 12:22:22.323">Setup failed:
+No keyword with name 'Abrir o meu navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<test id="s1-t3" name="Validar abertura do Facebook">
+<kw name="Abrir o meu navegador" type="SETUP">
+<msg timestamp="20221002 12:22:22.345" level="FAIL">No keyword with name 'Abrir o meu navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.345" endtime="20221002 12:22:22.345"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20221002 12:22:22.353" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.352" endtime="20221002 12:22:22.353">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<tag>FACEBOOK</tag>
+<status status="FAIL" starttime="20221002 12:22:22.335" endtime="20221002 12:22:22.354">Setup failed:
+No keyword with name 'Abrir o meu navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<test id="s1-t4" name="Validar soma de dois números">
+<kw name="Abrir o meu navegador" type="SETUP">
+<msg timestamp="20221002 12:22:22.382" level="FAIL">No keyword with name 'Abrir o meu navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.381" endtime="20221002 12:22:22.382"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20221002 12:22:22.394" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.394" endtime="20221002 12:22:22.394">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<tag>SOMA</tag>
+<status status="FAIL" starttime="20221002 12:22:22.359" endtime="20221002 12:22:22.395">Setup failed:
+No keyword with name 'Abrir o meu navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<test id="s1-t5" name="Somar dois números">
+<kw name="Abrir o meu navegador" type="SETUP">
+<msg timestamp="20221002 12:22:22.411" level="FAIL">No keyword with name 'Abrir o meu navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.411" endtime="20221002 12:22:22.411"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20221002 12:22:22.427" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.427" endtime="20221002 12:22:22.427">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<status status="FAIL" starttime="20221002 12:22:22.404" endtime="20221002 12:22:22.429">Setup failed:
+No keyword with name 'Abrir o meu navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<test id="s1-t6" name="Somar o &quot;${NUM_A}&quot; mais o &quot;${NUM_B}&quot;">
+<kw name="Abrir o meu navegador" type="SETUP">
+<msg timestamp="20221002 12:22:22.452" level="FAIL">No keyword with name 'Abrir o meu navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.452" endtime="20221002 12:22:22.452"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20221002 12:22:22.458" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20221002 12:22:22.458" endtime="20221002 12:22:22.458">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<status status="FAIL" starttime="20221002 12:22:22.440" endtime="20221002 12:22:22.458">Setup failed:
+No keyword with name 'Abrir o meu navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<doc>Aqui neste arquivo estaram presentes todos os tipos de
+variáveis que iremos estudar ao longo do treinamento.</doc>
+<status status="FAIL" starttime="20221002 12:22:17.366" endtime="20221002 12:22:22.471"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">BROWSER</stat>
+<stat pass="0" fail="1" skip="0">FACEBOOK</stat>
+<stat pass="0" fail="1" skip="0">SOMA</stat>
+</tag>
+<suite>
+<stat pass="0" fail="6" skip="0" id="s1" name="Variables">Variables</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221002 12:22:17.321" level="ERROR">Error in file 'C:\Users\Vinicius\Documents\PHA_TAUANEVALENTE\test\features\variables.robot' on line 66: Non-existing setting 'Arguments'.</msg>
+</errors>
+</robot>

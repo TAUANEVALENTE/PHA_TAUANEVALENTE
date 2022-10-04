@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20221003 14:20:50.353" rpa="false" schemaversion="2">
+<suite id="s1" name="PHA TAUANEVALENTE" source="C:\Users\Vinicius\Documents\PHA_TAUANEVALENTE">
+<suite id="s1-s1" name="Pha Tauanevalente" source="C:\Users\Vinicius\Documents\PHA_TAUANEVALENTE\pha_tauanevalente.robot">
+<test id="s1-s1-t1" name="Cenario 01 Exercício Dicionário">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome: ${DICIONARIO.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.451" endtime="20221003 14:20:50.454"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Sobrenome: ${DICIONARIO.sobrenome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.462" endtime="20221003 14:20:50.465"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Email: ${DICIONARIO.email}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.466" endtime="20221003 14:20:50.468"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Idade:</arg>
+<arg>${DICIONARIO.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.468" endtime="20221003 14:20:50.471"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Rua: ${DICIONARIO.rua}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.473" endtime="20221003 14:20:50.477"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Numero: ${DICIONARIO.numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.478" endtime="20221003 14:20:50.481"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cep: ${DICIONARIO.cep}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.481" endtime="20221003 14:20:50.492"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bairro: ${DICIONARIO.bairro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.493" endtime="20221003 14:20:50.496"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cidade: ${DICIONARIO.cidade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.497" endtime="20221003 14:20:50.499"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Estado: ${DICIONARIO.estado}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 14:20:50.501" endtime="20221003 14:20:50.504"/>
+</kw>
+<status status="PASS" starttime="20221003 14:20:50.447" endtime="20221003 14:20:50.506"/>
+</test>
+<doc>nesse arquivo ficar exercicio do PHA 2022</doc>
+<status status="PASS" starttime="20221003 14:20:50.437" endtime="20221003 14:20:50.513"/>
+</suite>
+<status status="PASS" starttime="20221003 14:20:50.366" endtime="20221003 14:20:50.519"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="PHA TAUANEVALENTE">PHA TAUANEVALENTE</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Pha Tauanevalente">PHA TAUANEVALENTE.Pha Tauanevalente</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
